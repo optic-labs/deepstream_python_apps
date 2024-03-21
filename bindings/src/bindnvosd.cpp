@@ -33,7 +33,7 @@ namespace pydeepstream {
                        pydsdoc::NvOSD::NvOSD_Mode::MODE_CPU)
                 .value("MODE_GPU", MODE_GPU,
                        pydsdoc::NvOSD::NvOSD_Mode::MODE_GPU)
-                .value("MODE_NONE", MODE_NONE, pydsdoc::NvOSD::NvOSD_Mode::MODE_NONE)
+                // .value("MODE_NONE", MODE_NONE, pydsdoc::NvOSD::NvOSD_Mode::MODE_NONE)
                 .export_values();
 
 
